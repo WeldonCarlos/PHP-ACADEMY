@@ -1,4 +1,5 @@
 <!-- listando atraves do select todos os itens da tabela no banco de usuarios-->
+<link rel="stylesheet" href="./estilos/home.css"/>
 
 <h1>Alunos Cadastrados</h1>
 <?php
