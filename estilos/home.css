@@ -207,9 +207,7 @@
   .Conteiner__Btn {
     margin-right: 6%;
   }
-  .diferente__Situacao {
-    display: flex;
-  }
+
   .diferente {
     display: none;
   }
@@ -243,9 +241,8 @@
 
 @media screen and (max-width: 375px) {
   .Body__Table {
-    width: 100%;
     font-weight: bold;
-    font-size: 0.41em;
+    font-size: 0.4em;
   }
   .Conteiner__Btn {
     margin-right: 5%;
@@ -262,10 +259,13 @@
     height: 180px;
   }
   .Head__Table {
-    font-size: 0.5em;
+    font-size: 0.4em;
   }
   .tableNone {
     display: none;
+  }
+  .table {
+    margin-right: 1%;
   }
 
   .Titulo__Home {
@@ -279,7 +279,7 @@
 @media screen and (max-width: 320px) {
   .Body__Table {
     font-weight: bold;
-    font-size: 0.31em;
+    font-size: 0.27em;
   }
   .Conteiner__Btn {
     margin-right: 6%;
@@ -300,16 +300,9 @@
     font-size: 0.82em;
   }
 
-  .diferente {
-    display: none;
-  }
   .Imagem {
     width: 330px;
     height: 180px;
-  }
-
-  .Layout__Mobile {
-    display: flex;
   }
 
   .Titulo__Home {
@@ -318,13 +311,5 @@
     font-size: 1.8em;
     font-weight: 800;
     width: 100%;
-  }
-
-  .tableNone {
-    display: none;
-  }
-
-  .tableNone {
-    display: flex;
   }
 }
